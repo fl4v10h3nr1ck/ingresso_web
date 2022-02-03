@@ -1,0 +1,39 @@
+
+#nome_razao, #fantasia, #cpf_cnpj, #tel_2, #tel, #rg_ie{width:100%}
+
+#bt_salvar_cliente{width:150px;margin-top:20px}
+
+.tab_clientes_tab tr, td{height:28px}
+
+@media (max-width: 930px){
+	
+#div_nome_razao{width:47%}
+#div_fantasia{width:47%}
+#div_cpf_cnpj{width:47%} 
+#div_rg_ie{width:47%}
+#div_tel{width:47%}
+#div_tel_2{width:47%}
+}
+
+
+@media (min-width: 931px) and (max-width: 1400px){
+	
+#div_nome_razao{width:27%}
+#div_fantasia{width:27%}
+#div_cpf_cnpj{width:17%} 
+#div_rg_ie{width:17%}
+#div_tel{width:22%}
+#div_tel_2{width:22%}
+}
+
+
+@media (min-width: 1401px){
+
+#div_nome_razao{width:27%}
+#div_fantasia{width:27%}
+#div_cpf_cnpj{width:17%} 
+#div_rg_ie{width:17%}
+#div_tel{width:22%}
+#div_tel_2{width:22%}
+}
+
